@@ -1,4 +1,4 @@
-See file:///Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/build/tmp/linkFrcUserProgramDebugExecutable/output.txt for all output for linkFrcUserProgramDebugExecutable.
+See file:///Users/jackjin/EXAMPLEDELETEME/Training-830/build/tmp/linkFrcUserProgramDebugExecutable/output.txt for all output for linkFrcUserProgramDebugExecutable.
 linking frcUserProgram successful.
 
-Finished linkFrcUserProgramDebugExecutable, see full log file:///Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/build/tmp/linkFrcUserProgramDebugExecutable/output.txt.
+Finished linkFrcUserProgramDebugExecutable, see full log file:///Users/jackjin/EXAMPLEDELETEME/Training-830/build/tmp/linkFrcUserProgramDebugExecutable/output.txt.

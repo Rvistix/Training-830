@@ -15,7 +15,7 @@
   };
 
 void Robot::RobotInit() {
-  SwerveInit();
+  // SwerveInit();
   m_chooser.SetDefaultOption(kAutoNameDefault, kAutoNameDefault);
   m_chooser.AddOption(kAutoNameCustom, kAutoNameCustom);
   frc::SmartDashboard::PutData("Auto Modes", &m_chooser);
@@ -67,6 +67,33 @@ void Robot::AutonomousPeriodic() {
 
 void Robot::TeleopInit() 
 {
+  
+  AbsoluteEncoderConfig abs_config;
+
+  abs_config.encoder = &fl_abs_enc;
+  abs_config.is_inverted = FL_ABS_ENC_INVERTED;
+  abs_config.zero_heading = FL_ZERO_HEADING;
+  _abs_encoders[ModulePosition::FL].Configure(abs_config);
+
+  abs_config.encoder = &fr_abs_enc;
+  abs_config.is_inverted = FR_ABS_ENC_INVERTED;
+  abs_config.zero_heading = FR_ZERO_HEADING;
+  _abs_encoders[ModulePosition::FR].Configure(abs_config);
+
+  abs_config.encoder = &bl_abs_enc;
+  abs_config.is_inverted = BL_ABS_ENC_INVERTED;
+  abs_config.zero_heading = BL_ZERO_HEADING;
+  _abs_encoders[ModulePosition::BL].Configure(abs_config);
+
+  abs_config.encoder = &br_abs_enc;
+  abs_config.is_inverted = BR_ABS_ENC_INVERTED;
+  abs_config.zero_heading = BR_ZERO_HEADING;
+  _abs_encoders[ModulePosition::BR].Configure(abs_config);
+
+
+  auto stuf = _abs_encoders[ModulePosition::FL].GetRawHeading().Degrees();
+
+  std::cout << static_cast<double>(stuf);
 
   frc::SmartDashboard::PutNumber("Speed", 0.0);
   frc::SmartDashboard::PutNumber("ang", 0.0);
@@ -79,6 +106,11 @@ void Robot::TeleopInit()
 void Robot::TeleopPeriodic() 
 {
   
+  #include <iostream>
+
+
+  std::cout << static_cast<double>(_abs_encoders[ModulePosition::FL].GetHeading().Degrees());
+
   // Task: Make a little game where you have to turn the wheel to a right position to score a point. 
   // Scenario: Console/SmartDashboard tell you to turn XX wheel XX way. 
   // Advanced people: add time limit, add menu screen with wheel turn as input, add noise suppression 
@@ -102,29 +134,6 @@ void Robot::TeleopPeriodic()
 
 
   // How to initialize each wheel
-
-  // AbsoluteEncoderConfig abs_config;
-
-  // abs_config.encoder = &fl_abs_enc;
-  // abs_config.is_inverted = FL_ABS_ENC_INVERTED;
-  // abs_config.zero_heading = FL_ZERO_HEADING;
-  // _abs_encoders[ModulePosition::FL].Configure(abs_config);
-
-  // abs_config.encoder = &fr_abs_enc;
-  // abs_config.is_inverted = FR_ABS_ENC_INVERTED;
-  // abs_config.zero_heading = FR_ZERO_HEADING;
-  // _abs_encoders[ModulePosition::FR].Configure(abs_config);
-
-  // abs_config.encoder = &bl_abs_enc;
-  // abs_config.is_inverted = BL_ABS_ENC_INVERTED;
-  // abs_config.zero_heading = BL_ZERO_HEADING;
-  // _abs_encoders[ModulePosition::BL].Configure(abs_config);
-
-  // abs_config.encoder = &br_abs_enc;
-  // abs_config.is_inverted = BR_ABS_ENC_INVERTED;
-  // abs_config.zero_heading = BR_ZERO_HEADING;
-  // _abs_encoders[ModulePosition::BR].Configure(abs_config);
-
 
 
 

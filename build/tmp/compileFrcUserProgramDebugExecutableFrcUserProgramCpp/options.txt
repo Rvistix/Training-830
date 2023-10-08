@@ -16,7 +16,7 @@ c++
 -g
 -nostdinc
 -I
-/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include
+/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include
 -I
 /Users/jackjin/.gradle/caches/transforms-3/ec335b3e36bfc589d86cb259685a81f4/transformed/wpilibNewCommands-cpp-2023.4.3-headers
 -I

@@ -31,7 +31,7 @@
       "/Users/jackjin/.gradle/caches/transforms-3/964600b0ba2b87498eb5f44581c59e68/transformed/cscore-cpp-2023.4.3-headers/",
       "/Users/jackjin/.gradle/caches/transforms-3/5c45e5b60ab54fed2c5df7b37943b368/transformed/apriltag-cpp-2023.4.3-headers/",
       "/Users/jackjin/.gradle/caches/transforms-3/201461261079a1aac799319484ad3732/transformed/opencv-cpp-4.6.0-4-headers/",
-      "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/",
+      "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/",
       "/Users/jackjin/.gradle/caches/transforms-3/deb73931c3d6c2b6c2413376d1bb2353/transformed/wpilibNewCommands-cpp-2023.4.3-sources/",
       "/Users/jackjin/.gradle/caches/transforms-3/80ab7a4392a695410fb5bbe745ce7eea/transformed/navx-frc-cpp-2023.0.3-sources/",
       "/Users/jackjin/.gradle/caches/transforms-3/3d62d1765d2f227b3616a0a4f08f7b69/transformed/wpilibc-cpp-2023.4.3-sources/",
@@ -77,7 +77,7 @@
       "/Users/jackjin/.gradle/caches/transforms-3/964600b0ba2b87498eb5f44581c59e68/transformed/cscore-cpp-2023.4.3-headers/",
       "/Users/jackjin/.gradle/caches/transforms-3/5c45e5b60ab54fed2c5df7b37943b368/transformed/apriltag-cpp-2023.4.3-headers/",
       "/Users/jackjin/.gradle/caches/transforms-3/201461261079a1aac799319484ad3732/transformed/opencv-cpp-4.6.0-4-headers/",
-      "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/"
+      "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/"
     ],
     "binaries": [
       {
@@ -86,7 +86,7 @@
           {
             "source": {
               "srcDirs": [
-                "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/cpp/"
+                "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/cpp/"
               ],
               "includes": [
                 "**/*.cpp",
@@ -96,7 +96,7 @@
             },
             "exportedHeaders": {
               "srcDirs": [
-                "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/"
+                "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/"
               ],
               "includes": [],
               "excludes": []
@@ -138,7 +138,7 @@
           "/Users/jackjin/.gradle/caches/transforms-3/964600b0ba2b87498eb5f44581c59e68/transformed/cscore-cpp-2023.4.3-headers/",
           "/Users/jackjin/.gradle/caches/transforms-3/5c45e5b60ab54fed2c5df7b37943b368/transformed/apriltag-cpp-2023.4.3-headers/",
           "/Users/jackjin/.gradle/caches/transforms-3/201461261079a1aac799319484ad3732/transformed/opencv-cpp-4.6.0-4-headers/",
-          "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/"
+          "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/"
         ],
         "sharedLibrary": false,
         "executable": true
@@ -148,7 +148,7 @@
       {
         "source": {
           "srcDirs": [
-            "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/cpp/"
+            "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/cpp/"
           ],
           "includes": [
             "**/*.cpp",
@@ -180,7 +180,7 @@
       {
         "source": {
           "srcDirs": [
-            "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/"
+            "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/"
           ],
           "includes": [],
           "excludes": []
@@ -243,7 +243,7 @@
       "/Users/jackjin/.gradle/caches/transforms-3/964600b0ba2b87498eb5f44581c59e68/transformed/cscore-cpp-2023.4.3-headers/",
       "/Users/jackjin/.gradle/caches/transforms-3/5c45e5b60ab54fed2c5df7b37943b368/transformed/apriltag-cpp-2023.4.3-headers/",
       "/Users/jackjin/.gradle/caches/transforms-3/201461261079a1aac799319484ad3732/transformed/opencv-cpp-4.6.0-4-headers/",
-      "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/",
+      "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/",
       "/Users/jackjin/.gradle/caches/transforms-3/deb73931c3d6c2b6c2413376d1bb2353/transformed/wpilibNewCommands-cpp-2023.4.3-sources/",
       "/Users/jackjin/.gradle/caches/transforms-3/80ab7a4392a695410fb5bbe745ce7eea/transformed/navx-frc-cpp-2023.0.3-sources/",
       "/Users/jackjin/.gradle/caches/transforms-3/3d62d1765d2f227b3616a0a4f08f7b69/transformed/wpilibc-cpp-2023.4.3-sources/",
@@ -289,7 +289,7 @@
       "/Users/jackjin/.gradle/caches/transforms-3/964600b0ba2b87498eb5f44581c59e68/transformed/cscore-cpp-2023.4.3-headers/",
       "/Users/jackjin/.gradle/caches/transforms-3/5c45e5b60ab54fed2c5df7b37943b368/transformed/apriltag-cpp-2023.4.3-headers/",
       "/Users/jackjin/.gradle/caches/transforms-3/201461261079a1aac799319484ad3732/transformed/opencv-cpp-4.6.0-4-headers/",
-      "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/"
+      "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/"
     ],
     "binaries": [
       {
@@ -298,7 +298,7 @@
           {
             "source": {
               "srcDirs": [
-                "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/cpp/"
+                "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/cpp/"
               ],
               "includes": [
                 "**/*.cpp",
@@ -308,7 +308,7 @@
             },
             "exportedHeaders": {
               "srcDirs": [
-                "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/"
+                "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/"
               ],
               "includes": [],
               "excludes": []
@@ -349,7 +349,7 @@
           "/Users/jackjin/.gradle/caches/transforms-3/964600b0ba2b87498eb5f44581c59e68/transformed/cscore-cpp-2023.4.3-headers/",
           "/Users/jackjin/.gradle/caches/transforms-3/5c45e5b60ab54fed2c5df7b37943b368/transformed/apriltag-cpp-2023.4.3-headers/",
           "/Users/jackjin/.gradle/caches/transforms-3/201461261079a1aac799319484ad3732/transformed/opencv-cpp-4.6.0-4-headers/",
-          "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/"
+          "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/"
         ],
         "sharedLibrary": false,
         "executable": true
@@ -359,7 +359,7 @@
       {
         "source": {
           "srcDirs": [
-            "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/cpp/"
+            "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/cpp/"
           ],
           "includes": [
             "**/*.cpp",
@@ -390,7 +390,7 @@
       {
         "source": {
           "srcDirs": [
-            "/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/include/"
+            "/Users/jackjin/EXAMPLEDELETEME/Training-830/src/main/include/"
           ],
           "includes": [],
           "excludes": []

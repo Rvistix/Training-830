@@ -1,20 +1,6 @@
-See file:///Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
-compiling NeoDriveMotor.cpp successful.
-
-compiling AnalogAbsoluteEncoder.cpp successful.
-
-compiling NeoTurnMotor.cpp successful.
-
-compiling WPISwerveModule.cpp successful.
-
-compiling NavXGyro.cpp successful.
-
+See file:///Users/jackjin/EXAMPLEDELETEME/Training-830/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
 compiling Robot.cpp successful.
-/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/cpp/Robot.cpp: In member function 'virtual void Robot::TeleopPeriodic()':
-/Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/src/main/cpp/Robot.cpp:339:26: warning: unused variable 'state' [-Wunused-variable]
-  339 |   frc::SwerveModuleState state{units::feet_per_second_t(speed), units::degree_t(angle)};
-      |                          ^~~~~
 
 compiling WPISwerveDrive.cpp successful.
 
-Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///Users/jackjin/WorkSpace/2023_Summer_Swerve/Training/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///Users/jackjin/EXAMPLEDELETEME/Training-830/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
